@@ -25,6 +25,13 @@
             nivel = "Radiante";
     }
         System.out.println("O herói de nome " + nome + " está no nível de " + nivel);
+        for (int c = xp ; c <= 10001; c += 1000){
+            System.out.println("O seu herói vai receber 1000 pontos de xp até chegar no nível mais alto, o Radiante");
+            System.out.println("personagem recebeu 1000 de xp");
+            xp = c;
+            System.out.println("O " + nome + " tem "  + xp + " pontos de xp");
+            System.out.println("Parabens, seu personagem está no nível máximo");
+        }
     }
 
     }
